@@ -8,5 +8,5 @@ func main() {
 	fmt.Println("Daniel er en kjekkere kar (Lindemann altså)")
 	fmt.Println("Dette er noe styr altså(det mener Daniel R)")
 	fmt.Println("'JetBrains kan gå i søpla' - Christian")
-	fmt.Println("nice")
+	fmt.Println("nice - Thomas")
 }

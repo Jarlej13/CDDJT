@@ -6,5 +6,5 @@ func main() {
 	fmt.Println("Hello, 世界")
 	fmt.Println("Jarle er en kjekk kar")
 	fmt.Println("Daniel er en kjekkere kar (Lindemann altså)")
-	fmt.Println("Detter er noe styr altså")
+	fmt.Println("Dette er noe styr altså(det mener Daniel R)")
 }

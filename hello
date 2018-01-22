@@ -7,4 +7,5 @@ func main() {
 	fmt.Println("Jarle er en kjekk kar")
 	fmt.Println("Daniel er en kjekkere kar (Lindemann altså)")
 	fmt.Println("Dette er noe styr altså(det mener Daniel R)")
+	fmt.Println("JEG HATER JETBRAINS OG GIT OG ALT I VERDEN! REEEEEEEEEEEEEEEE!")
 }

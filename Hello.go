@@ -8,3 +8,8 @@ func main() {
 	fmt.Println("Christian was here")
 }
 
+
+
+func teest81() {
+	fmt.Println("iuhyby")
+}

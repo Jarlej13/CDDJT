@@ -1,3 +1,0 @@
-# CDDJT
-
-hilsen J

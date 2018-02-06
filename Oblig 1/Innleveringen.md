@@ -1,4 +1,4 @@
-#Opg 1  
+<h1>Opg 1</h1>  
 <table>
     <tr>
         <th>Binære tall</th>  
@@ -31,5 +31,5 @@
         <td>71562</td>
     </tr>
 </table>
-#Opg 2.c  
+<h1>Opg 2.c</h1>  
 <img src="https://user-images.githubusercontent.com/35686045/35858901-5ff80fec-0b3e-11e8-9897-fb5c79c169af.png" width="90%"></img> 

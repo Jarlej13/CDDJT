@@ -30,6 +30,10 @@
         <td>0x1178A</td>
         <td>71562</td>
     </tr>
-</table>
-<h1>Opg 2.c</h1>  
+</table>  
+<h2>a)</h2>  
+<p>Binærtall til hexadesimaler: Vi deler opp rekken med 1-ere og 0-ere i grupper på fire. Dersom det ikke går opp legger vi til 0-ere foran. Deretter bruker vi tabellen for å finne ut hva det tilsvarer i hexadesimaler.</p>  
+<p>Hexadesimaler til binærtall: Her sjekker vi bare tabellen og setter tallene vi får ut etter hverandre.</p>  
+<h1>Opg 2</h1>  
+<h2>c)</h2>    
 <img src="https://user-images.githubusercontent.com/35686045/35858901-5ff80fec-0b3e-11e8-9897-fb5c79c169af.png" width="90%"></img> 

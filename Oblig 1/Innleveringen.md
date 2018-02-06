@@ -35,7 +35,7 @@
 <p>Binærtall til hexadesimaltall: Vi deler opp rekken med 1-ere og 0-ere i grupper på fire. Dersom det ikke går opp legger vi til 0-ere foran. Deretter bruker vi tabellen for å finne ut hva det tilsvarer i hexadesimaltall.</p>  
 <p>Hexadesimaltall til binærtall: Her sjekker vi bare opp mot tabellen og setter tallene vi får ut etter hverandre.</p>  
 <p>Binærtall til desimaltall: Vi tilegner verdien 1 til det tallet lengst til høyre og dobler verdien for hvert tall til venstre. Deretter sjekker vi hvert tall fra høyre og dersom det er en 1-er legger vi til verdien. Summen vi sitter igjen med på slutten er desimaltallet som tilsvarer det originale binærtallet.<br />
-   Eksempel: 1101 = 1(8) 1(4) 0(2) 1(1) = 8 + 4 + 1 = 13</p>  
+   Eksempel: 1101 = 1[8] 1[4] 0[2] 1[1]= 8 + 4 + 1 = 13</p>  
 <p>Desimaltall til binærtall: Vi skriver først ned desimaltallet. Deretter deler vi det på 2 og skriver ned resultatet (rundet ned). Dersom resultatet får rest noterer vi 1. Om ikke, noterer vi 0. Vi fortsetter slik til resultatet blir 0. Vi skriver ned 1-erne og 0-ene ved siden av hverandre (siste først) og da har vi binærtallet.<br />
    Eksempel: 13 = 13[1] --> 6[0] --> 3[1] --> 1[1] --> 0 = 1101 </p>  
 <h2>b)</h2>

@@ -45,4 +45,4 @@
    Eksempel: 74 = 74 / 16 --> 4 (10 i rest). 4 / 16 --> 0 (4 i rest) = 4A</p>  
 <h1>Opg 2</h1>
 <h2>c)</h2>    
-<img src="https://user-images.githubusercontent.com/35686045/35858901-5ff80fec-0b3e-11e8-9897-fb5c79c169af.png" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/35686045/35911808-27e5abc4-0bfb-11e8-9180-c7eeb54784fb.png" width="90%"></img>

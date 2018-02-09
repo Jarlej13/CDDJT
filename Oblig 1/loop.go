@@ -6,7 +6,7 @@ import (
 "os/signal"
 
 )
-// Avslutningsmeldinger som programmet håndterer og godkjenner er følgende: Ctrl-C og Ctrl-break
+// Prossessen bruker 50% av prosessor og 53% av minne på en datamaskin.  Avslutningsmeldinger som programmet håndterer og godkjenner er følgende: Ctrl-C og Ctrl-break
 func main() {
 	d := make(chan os.Signal, 2)
 	signal.Notify(d, os.Interrupt,)

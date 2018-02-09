@@ -44,5 +44,7 @@
 <p>Desimaltall til hexadesimaltall: Vi deler desimaltallet på 16 og noterer resten. Fortsett på samme måte med resultatet til vi bare sitter igjen med rest. Bruk tabellen til å finne hexadesimaltallet v.h.a. restene (siste først).<br />
    Eksempel: 74 = 74 / 16 --> 4 (10 i rest). 4 / 16 --> 0 (4 i rest) = 4A</p>  
 <h1>Opg 2</h1>
-<h2>c)</h2>    
-<img src="https://user-images.githubusercontent.com/35686045/35911808-27e5abc4-0bfb-11e8-9180-c7eeb54784fb.png" width="90%"></img>
+<h2>c)</h2>   
+<h3>Big-O</h3  
+<p>Kort sagt er Big-O i hvilken grad tiden det tar å utføre operasjonen vokser i forhold til størrelsen på lista. Big-O for bubblesort og quicksort er vanligvis O(N^2). Det vil si at tiden det tar å utføre øker proporsjonalt med størrelsen på lista. Dette observerer vi også for de 3 algoritmene.<br />
+   Eksempel: Vi tar utgangspunkt i den modifiserte bubblesort funksjonen. Etter å ha kjørt testen observerer vi at når størrelsen på lista øker fra 100 elementer til 1000 elementer, altså 10 ganger, øker ns/op 55 ganger. Deretter observerer vi at når lista øker videre fra 1000 elementer til 10000 elementer, altså 10 ganger til, øker ns/op 138 ganger. Under finner du alle 3 algoritmene illustrert grafisk og sammenlignet med O(N^2).</p>  

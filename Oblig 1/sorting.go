@@ -1,18 +1,17 @@
-package algorithms
+package awesomeProject1
 
 // Les https://en.wikipedia.org/wiki/Bubble_sort
 func Bubble_sort_modified(list []int) {
-	end := len(list)-1
-	for{
-		if end == 0 {
-			break
-		}
-		for i := 0; i < len(list)-1;i++{
-			if list[i]>list[i+1]{
-				list[i],list[i+1] = list[i+1], list[i]
+	n := len(list)
+	for j := 0; j < n; {
+		newn := 0
+		for i := 1; i <= n-1; i++ {
+			if list[i-1] > list[i] {
+				list[i-1], list[i] = list[i], list[i-1]
+				newn = i
 			}
 		}
-		end -= 1
+		n = newn
 	}
 }
 

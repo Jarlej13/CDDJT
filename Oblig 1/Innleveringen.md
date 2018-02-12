@@ -1,3 +1,9 @@
+Dette er innleveringen til CDDJT.
+Vi har jobbet mye sammen på enkelte maskiner derfor vil det bare stå noen som contributors. 
+I koden har vi lagt inn kommentarer og drøftinger som er gjort på de forskjellige oppgavene. 
+
+
+
 <h1>Opg 1</h1>  
 <table>
     <tr>

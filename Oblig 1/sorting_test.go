@@ -1,10 +1,10 @@
-package algorithms
+package awesomeProject1
 
 import (
 	"math/rand"
 	"reflect"
-	"testing"
 	"time"
+	"testing"
 )
 
 // https://golang.org/doc/effective_go.html#init

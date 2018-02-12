@@ -99,7 +99,7 @@
     Eksempel: Vi tar utgangspunkt i den modifiserte bubblesort funksjonen.
     Etter å ha kjørt testen observerer vi at når størrelsen på lista øker fra 100 elementer til 1000 elementer, altså 10 ganger, øker ns/op 53 ganger.
     Deretter observerer vi at når lista øker videre fra 1000 elementer til 10000 elementer, altså 10 ganger til, øker ns/op 153 ganger.
-    Under finner du alle 3 algoritmene illustrert grafisk:
+    Under finner du alle 3 algoritmene illustrert grafisk (trykk på bildene for å gjøre dem større):
 </p>
 
 <img src="https://user-images.githubusercontent.com/35686045/36108647-9bb01118-101d-11e8-8172-236e8c1ba44f.png" width="30%"></img>

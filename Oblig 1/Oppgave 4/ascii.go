@@ -68,7 +68,3 @@ func ExtendedASCIIText2(tekst string) (string){
 	fmt.Println("De extended verdiene er: " + extAscii)
 	return extAscii
 }
-
-func ExtendedASCIIText3(tekst string){
-
-}

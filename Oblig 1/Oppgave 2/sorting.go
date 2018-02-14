@@ -1,4 +1,4 @@
-package awesomeProject1
+package Oppgave_2
 
 // Les https://en.wikipedia.org/wiki/Bubble_sort
 func Bubble_sort_modified(list []int) {

@@ -10,6 +10,7 @@ import (
 
 var antall []int
 var biggest, n, m, k int
+
 func main() {
 	filnavn := os.Args[1]
 
@@ -28,6 +29,7 @@ func main() {
 	for i:= 32;  i <= 126; i++{
 		iterate(i, str);
 	}
+	fmt.Println("")
 	fmt.Println("Information about", filnavn, ":")
 	fmt.Println("")
 	lineCounter(filnavn);
@@ -67,5 +69,5 @@ func lineCounter(filnavn string) {
 	for fileScanner.Scan() {
 		lineCount++
 	}
-	fmt.Println("number of lines:", lineCount)
+	fmt.Println("Number of lines:", lineCount)
 }

@@ -1,7 +1,9 @@
 
 Oppgave laget av gruppen CDDJT
 
-Medlemmer: Jarle N Johnsen
+Medlemmer: 
+           
+           Jarle N Johnsen
 
            Christian Kittilsen
            

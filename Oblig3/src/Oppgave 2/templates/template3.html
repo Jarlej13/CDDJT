@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Busstopp</title>
+</head>
+<body>
+	<h1>Busstopp</h1>
+    {{range $.Entries}}
+	<table>
+		<tr><th>CompanyCode:</th><td>{{.CompanyCode}}</td></tr>
+		<tr><th>Dataset:</th><td>{{.Dataset}}</td></tr>
+		<tr><th>StopCode:</th><td>{{.StopCode}}</td></tr>
+		<tr><th>FullName:</th><td>{{.FullName}}</td></tr>
+		<tr><th>Name:</th><td>{{.Name}}</td></tr>
+		<tr><th>ShortName:</th><td>{{.ShortName}}</td></tr>
+		<tr><th>Latitude:</th><td>{{.Latitude}}</td></tr>
+		<tr><th>Longitude:</th><td>{{.Longitude}}</td></tr>
+		<tr><th>Zone1:</th><td>{{.Zone1}}</td></tr>
+		<tr><th>Zone2:</th><td>{{.Zone2}}</td></tr>
+		<tr><th>TransferTime:</th><td>{{.TransferTime}}</td></tr>
+		<tr><th>Transfer:</th><td>{{.Transfer}}</td></tr>
+		<tr><th>BusStopType:</th><td>{{.BusStopType}}</td></tr>
+		<tr><th>BusStopId:</th><td>{{.BusStopId}}</td></tr>
+    </table>
+	<p>________________________</p>
+	<p></p>
+    {{end}}
+</body>
+</html>

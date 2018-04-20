@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Miljøstasjoner</title>
+</head>
+<body>
+	<h1>Miljøstasjoner</h1>
+    {{range $.Entries}}
+	<table>
+		<tr><th>Latitude:</th><td>{{.Latitude}}</td></tr>
+		<tr><th>Navn:</th><td>{{.Navn}}</td></tr>
+		<tr><th>Plast:</th><td>{{.Plast}}</td></tr>
+		<tr><th>GlassMetall:</th><td>{{.GlassMetall}}</td></tr>
+		<tr><th>TekstilSko:</th><td>{{.TekstilSko}}</td></tr>
+		<tr><th>Longitude:</th><td>{{.Longitude}}</td></tr>
+    </table>
+	<p>________________________</p>
+	<p></p>
+    {{end}}
+</body>
+</html>

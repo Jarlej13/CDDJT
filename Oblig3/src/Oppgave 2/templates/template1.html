@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valglokaler</title>
+</head>
+<body>
+    {{range $.Entries}}
+    <h1>Valglokaler</h1>
+	<table>
+		<tr><th>Kommune:</th><td>{{.Kommune}}</td></tr>
+		<tr><th>Fylke:</th><td>{{.Fylke}}</td></tr>
+		<tr><th>Navn:</th><td>{{.Navn}}</td></tr>
+		<tr><th>SistEndret:</th><td>{{.SistEndret}}</td></tr>
+		<tr><th>Addresse:</th><td>{{.Addresse}}</td></tr>
+		<tr><th>Latitude:</th><td>{{.Lon}}</td></tr>
+		<tr><th>ID:</th><td>{{.ID}}</td></tr>
+		<tr><th>Latitude:</th><td>{{.Lat}}</td></tr>
+		<tr><th>URL:</th><td>{{.URL}}</td></tr>
+    </table>
+	<p>________________________</p>
+	<p></p>
+    {{end}}
+</body>
+</html>

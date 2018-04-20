@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotell</title>
+</head>
+<body>
+	<h1>Hotell</h2>
+    {{range $.Entries}}
+	<table>
+		<tr><th>Kommune:</th><td>{{.Kommune}}</td></tr>
+		<tr><th>Fylke:</th><td>{{.Fylke}}</td></tr>
+		<tr><th>Navn:</th><td>{{.Navn}}</td></tr>
+    </table>
+	<p>________________________</p>
+	<p></p>
+    {{end}}
+</body>
+</html>

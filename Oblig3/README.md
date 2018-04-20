@@ -1,7 +1,7 @@
 
 MEDLEMMER:
-Jarle Nordby Johnsen
-Christian Kittilsen
+Jarle Nordby Johnsen /n
+Christian Kittilsen/n 
 Daniel Lindemann
 Daniel Reisæter
 Thomas Theissen

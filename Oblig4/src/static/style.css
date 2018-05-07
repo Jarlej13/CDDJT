@@ -1,0 +1,41 @@
+body{
+	background-color: #cccccc;
+}
+h1{
+	text-align: center;
+}
+a{
+	margin: auto:
+}
+th{
+	text-align: left;
+}
+form{
+	float: center;
+}
+#main{
+	margin: auto;
+	width: 1010px;
+	height: 500px;
+}
+#main2{
+	margin: auto;
+	padding: 5px;
+	width: 12%;
+	height: auto;
+	border: 1px solid black;
+}
+#content{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	float: left;
+	border-style: solid;
+	border-color: black;
+}
+#googleMap{
+	width: 600px;
+	height: 404px;
+	margin: auto;
+	float: right;
+}

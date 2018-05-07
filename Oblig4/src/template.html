@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Værdata</title>
+    <link rel="stylesheet" type="text/css" href="static\style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+</head>
+<body>
+    <h1>Værdata</h1>
+	<a href="1"> Back </a>
+
+    <div id="main" >
+        <div id="content">
+        <table>
+            <tr><th>Bynavn:</th><td>{{.Location.Name}}</td></tr>
+            <tr><th>Fylke:</th><td>{{.Location.Region}}</td></tr>
+            <tr><th>Land:</th><td>{{.Location.Country}}</td></tr>
+            <tr><th>Tidssone:</th><td>{{.Location.TzID}}</td></tr>
+            <tr><th>Lokaltid:</th><td>{{.Location.Localtime}}</td></tr>
+            <tr><td><br></td></tr>
+            <tr><th>Temperatur:</th><td>{{.Current.TempC}} C°</td></tr>
+            <tr><th>Nedbør:</th><td>{{.Current.PrecipMm}} mm </td></tr>
+            <tr><th>Beskrivelse: </th><td>{{.Current.Condition.Text}}</td></tr>
+            <tr><th>Vindhastighet:</th><td>{{.Current.WindKph}} Km/t</td></tr>
+            <tr><th>Vindretning:</th><td>{{.Current.WindDir}}</td></tr>
+            <tr><th>Føles som C:</th><td>{{.Current.FeelslikeC}} C° </td></tr>
+            <tr><td><br></td></tr>
+            <tr><th>Melding: </th><td>{{.TilbakeMelding.TilbakeMld}}</td></tr>
+
+        </table>
+		
+        <p>__________________________________________________</p>
+        <table>
+            <tr><th>Sist Oppdatert:</th><td>{{.Current.LastUpdated}}</td></tr>
+        </table>
+        </div>
+        <div id="googleMap"></div>
+    </div>
+    <script>
+        function myMap() {
+            var mapProp= {
+                center:new google.maps.LatLng({{.Location.Lat}},{{.Location.Lon}}),
+                zoom:10,
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoMydHaAqR9mfomXhLXIamS74rpxtWbWQ&callback=myMap"></script>
+</body>
+</html>

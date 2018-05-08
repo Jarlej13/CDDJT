@@ -10,13 +10,10 @@ a{
 th{
 	text-align: left;
 }
-form{
-	float: center;
-}
 #main{
 	margin: auto;
 	width: 1010px;
-	height: 500px;
+	height: auto;
 }
 #main2{
 	margin: auto;
@@ -27,7 +24,7 @@ form{
 }
 #content{
 	width: 400px;
-	height: 400px;
+	height: 420px;
 	margin: auto;
 	float: left;
 	border-style: solid;
@@ -35,7 +32,7 @@ form{
 }
 #googleMap{
 	width: 600px;
-	height: 404px;
+	height: 424px;
 	margin: auto;
 	float: right;
 }

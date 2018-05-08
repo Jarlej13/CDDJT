@@ -3,6 +3,7 @@ package main
 import (
 	"testing"
 	"os"
+	"fmt"
 )
 //Testfunksjon som sjekker om filene du oppgir er tilstede. Om de ikke er vil den returnere en error.
 func Exists(name string) bool {
@@ -33,4 +34,18 @@ func TestFil3(t *testing.T){
 	if r == false {
 		t.Error("File not found")
 	}
+}
+
+func TestData(t *testing.T) {
+	c, n, tilbakeMld := testData(5, 0, "oslo")
+	if c > 0 {
+		if tilbakeMld != "Det er kjølig ute. Ta på en jakke." {
+			t.Error("Feil tilbakemelding")
+		}
+
+	}
+	if n != 0 {
+		t.Error("Feil nedbørsmengde")
+	}
+
 }

@@ -97,7 +97,7 @@ func visData(w http.ResponseWriter, r *http.Request) {
 		log.Fatal(jsonErr)
 	}
 	//Kjører kode for å hente temperatur data og tilbakemelding
-	profil.hentData()
+	testData(profil.hentData())
 	//Setter tilbakemelding inn i struct via funksjon tidligere i koden
 	profil.setMld(tilbakeMld)
 
@@ -113,11 +113,18 @@ func visData(w http.ResponseWriter, r *http.Request) {
 
 }
 
-//Funksjon som henter og behandler data fra struct.
-func (f *Profil) hentData() {
+func (f *Profil) hentData() (float64, float64, string) {
 	c := f.Current.TempC
 	n := f.Current.PrecipMm
 	navn := f.Location.Name
+	return c, n, navn
+}
+
+//Funksjon som henter og behandler data fra struct.
+func testData(celsius float64, nedbor float64, navnet string) (float64, float64, string)  {
+	c := celsius
+	n := nedbor
+	navn := navnet
 
 	//Kjører if tester og lager responser ut fra det
 	if c < 0 {
@@ -155,6 +162,8 @@ func (f *Profil) hentData() {
 		fmt.Println("Kjente ikke igjen sted. Vennligst start programmet på nytt med riktig stedsnavn. Du skrev inn " + input)
 		tilbakeMld = "Kjente ikke igjen sted. Vennligst start programmet på nytt med riktig stedsnavn. Du skrev inn " + input
 	}
+
+	return c, n, tilbakeMld
 }
 
 //Åpner browser og navigerer til lenken oppgitt i main

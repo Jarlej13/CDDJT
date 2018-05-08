@@ -63,9 +63,6 @@ func (f *Profil) setMld(melding string) {
 	f.TilbakeMelding.TilbakeMld = melding
 }
 
-func returnStruct() Profil {
-	return profil
-}
 //Når programmet starter får du opp nettside med inputfelt ved hjelp av denne koden. Den leser også inputen du gir.
 func start(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {

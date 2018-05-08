@@ -109,7 +109,7 @@ func visData(w http.ResponseWriter, r *http.Request) {
 	}
 
 }
-
+//Funksjon som henter data fra struct og returnerer det.
 func (f *Profil) hentData() (float64, float64, string) {
 	c := f.Current.TempC
 	n := f.Current.PrecipMm
@@ -117,7 +117,7 @@ func (f *Profil) hentData() (float64, float64, string) {
 	return c, n, navn
 }
 
-//Funksjon som henter og behandler data fra struct.
+//Funksjon som behandler data fra struct.
 func testData(celsius float64, nedbor float64, navnet string) (float64, float64, string)  {
 	c := celsius
 	n := nedbor

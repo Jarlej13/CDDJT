@@ -4,7 +4,7 @@ import (
 	"testing"
 	"os"
 )
-//Testfunksjon som sjekker om filene du oppgir er tilstede. Om de ikke er vil den returnere en error.
+//Testfunksjoner (TestFil, TestFil2, TestFil3) som sjekker om filene du oppgir er tilstede. Om de ikke er vil den returnere en error.
 func Exists(name string) bool {
 	if _, err := os.Stat(name); err != nil {
 		if os.IsNotExist(err) {
@@ -34,7 +34,7 @@ func TestFil3(t *testing.T){
 		t.Error("File not found")
 	}
 }
-
+//Funksjon som tester om verdier for temperatur, nedbør og tilbakemelding fra kode samsvarer
 func TestData(t *testing.T) {
 	c, n, tilbakeMld := testData(5, 0, "oslo")
 	if c > 0 {

@@ -3,7 +3,6 @@ package main
 import (
 	"testing"
 	"os"
-	"fmt"
 )
 //Testfunksjon som sjekker om filene du oppgir er tilstede. Om de ikke er vil den returnere en error.
 func Exists(name string) bool {

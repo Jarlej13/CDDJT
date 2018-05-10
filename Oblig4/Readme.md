@@ -7,4 +7,4 @@
 
 <p>Nodene består av klient, databaseserver og webserver. Applikasjonen åpner webserver på port :8080, får input fra bruker og presenterer dataen på en annen side. Klienten sender også en forespørsel til Apixu.com sine servere for å hente værdata.</p>
 
-<img src="https://user-images.githubusercontent.com/35611995/39714350-12ee54da-522a-11e8-9179-2080cbd305f2.png" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/35611995/39879725-e9eec64c-547b-11e8-934b-6f9251a2f0e0.png" width="90%"></img> 

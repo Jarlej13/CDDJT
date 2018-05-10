@@ -17,13 +17,13 @@ var tilbakeMld = ""
 var input = ""
 
 func main() {
-	//Starter kode når man kobler til via localhost:1337/1
-	openBrowser("http:\\localhost:1337/1")
+	//Starter kode når man kobler til via localhost:8080/1
+	openBrowser("http:\\localhost:8080/1")
 	http.HandleFunc("/1", start)
 	http.HandleFunc("/2", visData)
 	fs := http.FileServer(http.Dir("static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
-	if err := http.ListenAndServe(":1337", nil); err != nil {
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		fmt.Print(err)
 	}
 }
